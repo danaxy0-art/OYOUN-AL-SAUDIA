@@ -1,0 +1,30 @@
+# Datasets & archives (do not commit raw data)
+archive.zip
+Data/
+dataset/
+*.mov
+*.mp4
+*.avi
+
+# Trained weights & run artifacts
+runs/
+*.pt
+*.onnx
+*.torchscript
+*.engine
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets / environment
+.env
+*.key
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
